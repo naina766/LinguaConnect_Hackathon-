@@ -1,6 +1,6 @@
 // controllers/chatbotController.ts
 import { Request, Response } from "express";
-import { generateLingoReply } from "../services/lingoService";
+// import { generateLingoReply } from "../services/lingoService";
 import { sendResponse } from "../utils/responseHandler";
 
 export const reply = async (req: Request, res: Response) => {
